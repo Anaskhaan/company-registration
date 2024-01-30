@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-family: "Merriweather", serif;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.or {
+  margin: 10px 0;
+  position: relative;
+}
+
+.or span {
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.or:before,
+.or:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  height: 1px;
+  background-color: #ccc;
+  z-index: 0;
+  left: 0;
+}
+
+.or:before {
+  right: 100%;
+  margin-right: 10px;
+}
+
+.or:after {
+  left: 100%;
+  margin-left: 10px;
+  left: 140px;
+}
+.login {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  border: 0;
+}
+
+.login:hover {
+  background-color: #45a049;
+}
+
+.signup {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup:hover {
+  background-color: #45a049;
+}
+.login a {
+  text-decoration: none;
+  color: white;
+}
+.signup a {
+  text-decoration: none;
+  color: white;
+}
+.department-label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+}
+select#department {
+  height: 30px;
+}
+button {
+  background: #4caf50;
+  color: white;
+  padding: 10px 0px;
+  border: 0;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
